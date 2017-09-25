@@ -1,0 +1,121 @@
+body {
+    margin: auto;
+
+}
+
+.container {
+    width: auto;
+
+}
+
+header {
+    background-color: #75A1A0;
+    margin: 0 auto;
+    height: 100px;
+    text-align: center;
+}
+
+main {
+    background-color: whitesmoke;
+    width: 1060px;
+    height: 620px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+}
+
+aside {
+    display: inline-block;
+    width: 228px;
+    float: left;
+    height: 620px;
+    background-color: darkgray;
+    padding-left:1px;
+}
+
+footer {
+    background-color: dimgray;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    clear: both
+}
+
+h1 {
+    text-decoration-style: solid;
+    font-family: 'century gothic', Verdana, Geneva, sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.70);
+    font-style: oblique;
+    color: blue;
+}
+
+h2 {
+    text-decoration-style: solid;
+    font-family: 'century gothic', Verdana, Geneva, sans-serif;
+    font-size: 15pt;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.70);
+    font-style: oblique;
+    color: black;
+}
+
+h3 {
+    text-decoration-style: solid;
+    font-family: 'century gothic', Verdana, Geneva, sans-serif;
+    font-size: 15pt;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.70);
+    font-style: oblique;
+    color: black;
+}
+
+nav ul li {
+    padding: 0 30px;
+    list-style-type: none;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 20pt;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.70);
+    font-style: oblique;
+    font-family: 'Century Schoolbook', Verdana, Geneva, sans-serif;
+    color: black;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-transition: all 1.0s ease-in-out;
+    -moz-transition: all 1.0s ease-in-out;
+    -o-transition: all 1.0s ease-in-out;
+    transition: all 1.0s ease-in-out;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #75A1A0;
+    background-color: transparent;
+}
+
+p {
+    font-style: inherit;
+}
+
+.video {
+    width: 220px;
+    height: 220px;
+}
+
+.tix {
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+}
