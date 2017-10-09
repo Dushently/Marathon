@@ -1,0 +1,179 @@
+body {
+    margin: 0 auto;
+    background-image: url("../../img/achtergrond.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100rem;
+    overflow-x: hidden;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+main {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 67.53rem;
+    display: inline-block;
+}
+
+nav ul li {
+    padding: 0 9rem;
+    margin: 0 auto;
+    display: inline-block;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #FFFF4D;
+    background-color: transparent;
+}
+
+nav ul li a {
+    font-size: 19.5pt;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.70);
+    font-family: 'Century Schoolbook', Verdana, Geneva, sans-serif;
+    color: #ffffff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-transition: all 1.0s ease-in-out;
+    -moz-transition: all 1.0s ease-in-out;
+    -o-transition: all 1.0s ease-in-out;
+    transition: all 1.0s ease-in-out;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'century gothic', Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 4rem;
+    margin-top: 10rem;
+    margin-left: 13rem;
+}
+
+.onzichtbaar {
+    display: none;
+
+}
+
+.sidenav {
+    height: 105%;
+    width: 20rem;
+    background-color: #fff;
+    border-radius: 6px;
+    display: inline-block;
+    float: left;
+    border-right: double black;
+
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 31px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+
+}
+
+.sidenav a:hover {
+    color: #FFFF4D;
+
+}
+
+.foto {
+    position: absolute;
+    top: 15rem;
+    left: 2rem;
+    width: 15rem;
+    height: 15rem;
+}
+
+.video {
+    width: 250px;
+    height: 230px;
+    position: absolute;
+    top: 500px;
+    left: 2rem;
+}
+
+.fcontainer {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.item1 {
+    width: 450px;
+    height: 250px;
+    border: solid transparent;
+    margin: 50px;
+    background-image: url("foto1.jpg");
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+
+.item2 {
+    width: 450px;
+    height: 250px;
+    border: solid transparent;
+    margin: 50px;
+    background-image: url("foto2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.item3 {
+    width: 450px;
+    height: 250px;
+    border: solid transparent;
+    margin: 50px;
+    background-image: url("foto3.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.artikel p {
+
+    text-align: center;
+    font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+    font-size: 20pt;
+}
+
+footer {
+    width: 100%;
+    height: 11.5%;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 125em;
+    border-radius: 6px;
+    margin-left: 324px;
+}
+
+.adresgegevems {
+    font-size: 16pt;
+    margin-left: 40rem;
+}
+
+.contactgegevems {
+    font-size: 16pt;
+    margin-top: -3rem;
+
+}
